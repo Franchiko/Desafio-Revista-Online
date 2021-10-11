@@ -1,0 +1,183 @@
+@media all and (min-width: 970px) and (max-width: 1246px) {
+  .contenido {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 80%;
+  }
+
+  .noticia {
+    display: inline-block;
+    text-align: center;
+    padding: 0rem 1rem 1rem 0rem;
+    width: 20%;
+  }
+}
+@media all and (min-width: 670px) and (max-width: 969px) {
+  .contenido {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 80%;
+  }
+
+  .noticia {
+    display: block;
+    text-align: center;
+    padding: 0rem 1rem 1rem 0rem;
+    width: 200%;
+  }
+
+  img .imagen-noticia {
+    display: inline-block;
+    width: 100%;
+  }
+}
+@media all and (max-width: 669px) {
+  aside {
+    display: none;
+  }
+
+  .nav_list-item {
+    display: inline;
+    padding: 1rem;
+    font-size: small;
+  }
+  .nav_list-item .input-menu {
+    padding-left: 0.4rem;
+    margin-left: 1rem;
+    font-size: small;
+  }
+}
+body {
+  margin: 0;
+}
+
+a {
+  color: #F6DDCC;
+}
+
+img {
+  max-width: 100%;
+}
+
+aside {
+  position: absolute;
+  top: 9rem;
+  left: 70%;
+}
+
+body {
+  height: 100vh;
+  background-color: #FFF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+}
+
+/* Base Typography*/
+h1, h2, h3, h4, h5, h6 {
+  color: #CD5C5C;
+  font-family: "Open-sans", serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.menu {
+  max-width: 100%;
+}
+
+.logo {
+  font-family: "Open-sans", serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #21618C;
+  max-width: 80%;
+  padding-left: 2.5rem;
+}
+
+.nav {
+  background-color: #5DADE2;
+  font-family: "Open-sans", serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+  max-width: 100%;
+  padding: 0.3rem 0rem 0.3rem 0rem;
+}
+
+.nav_list-item {
+  display: inline;
+  padding: 2rem;
+  font-size: 18px;
+}
+.nav_list-item .input-menu {
+  padding-left: 0.4rem;
+  margin-left: 3rem;
+  font-size: 18px;
+}
+
+.contenido {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.listad-noticias {
+  width: 100%;
+}
+
+.noticia {
+  display: inline-block;
+  text-align: center;
+  padding: 2rem;
+  width: 30%;
+}
+
+.listado-izquierdo {
+  font-family: "Open-sans", serif, serif;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #F6DDCC;
+  padding: 0rem 1rem 0rem 1rem;
+  height: 200%;
+  max-height: max-content;
+  z-index: -1;
+}
+.listado-izquierdo h1 {
+  color: #FA8072;
+}
+.listado-izquierdo h4 {
+  font-size: 16px;
+}
+.listado-izquierdo p {
+  color: #424949;
+}
+.listado-izquierdo img {
+  width: 30%;
+}
+
+.newsletter {
+  background-color: #21618C;
+  text-align: center;
+  padding: 2rem 0rem 2rem 0rem;
+  color: #FFF;
+}
+.newsletter h2:hover {
+  color: #FFF;
+}
+
+.input-menu {
+  font-size: 18px;
+}
+
+.boton_suscript {
+  font-size: 18px;
+}
+
+footer {
+  background-color: #424949;
+  padding: 0.4rem 0rem 0.4rem 0rem;
+  text-align: center;
+  color: #FFF;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */
